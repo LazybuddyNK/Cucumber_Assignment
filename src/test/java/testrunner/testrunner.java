@@ -12,7 +12,7 @@ import cucumber.api.CucumberOptions;
         monochrome = true,
         dryRun = false,
 //        tags = ("@regression"),
-        plugin = { "pretty"}
+        plugin = { "pretty", "html:target/cucumber-reports" }
         )
 public class testrunner {
 
